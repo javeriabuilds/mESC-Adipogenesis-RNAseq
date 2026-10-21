@@ -65,14 +65,14 @@ GO enrichment indicates statistical over-representation of annotations; it does 
 
 ### Selected gene-set enrichment
 
-The selected gene-set analysis highlighted:
+The selected gene-set enrichment analysis reported the following results:
 
-- **Extracellular matrix organization:** normalized enrichment score (NES) approximately 1.81.
-- **Epithelial cell differentiation:** NES approximately −1.61, with false discovery rate (FDR) approximately 0.0067.
+- **Epithelial cell differentiation:** NES = −2.077; FDR q-value reported as 0.000 at displayed precision.
+- **Extracellular matrix organization:** NES = −0.996; FDR q-value = 0.460.
+- **Phospholipid metabolic process:** NES = −1.638; FDR q-value = 0.175.
+- **Adipose tissue development:** NES = −1.018; FDR q-value = 0.440.
 
-The enrichment-score directions reflect the Pos-minus-Neg ranking. Lipid metabolism and adipose tissue development were not significantly enriched in the selected gene-set analysis.
-
-Together, these findings identify extracellular-matrix organization and epithelial-differentiation-associated expression patterns as candidates for further investigation. They do not establish causal mechanisms or prove that the observed patterns are specific to adipogenic differentiation.
+Using the Pos-minus-Neg ranking, negative normalized enrichment scores (NES) indicate enrichment toward the lower-in-Pos end of the ranking. Epithelial cell differentiation met the FDR < 0.05 significance threshold, whereas the other three selected gene sets did not. These findings are exploratory and do not establish causal mechanisms or confirm that the observed expression changes are specific to adipogenic differentiation.
 
 ## Limitations
 
